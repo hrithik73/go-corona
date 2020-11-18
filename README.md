@@ -1,7 +1,7 @@
 # Getting Started
 
 ## Description
-This is a site to get a statistic of nobel coronavirus also known as COVID-19 in most boring way.
+A React App to get the statistic of nobel coronavirus also known as COVID-19 in most boring way.
 
 ## Live Demo 
 [https://go-covid19.netlify.app/](https://go-covid19.netlify.app/)
