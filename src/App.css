@@ -1,0 +1,10 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.logo{
+    height: 150px;
+    width: 150px;
+}
