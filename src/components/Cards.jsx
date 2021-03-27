@@ -1,19 +1,10 @@
 import React from 'react';
 import CardComponent from './CardComponent';
 import Grid from "@material-ui/core/Grid";
-import { makeStyles } from '@material-ui/core/styles';
 
 import styles from "./Cards.module.css"
 
-const useStyles = makeStyles({
-    root: {
-        flexGrow: 1
-    },
-    // container: {
-    //     flexDirection: "column"
-    // }
 
-})
 
 
 const Cards = ({ data }) => {
