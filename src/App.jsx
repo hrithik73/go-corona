@@ -19,7 +19,7 @@ const App = () => {
       <NavbarComponent />
       {/* <div> */}
       <img src={logo} alt="logo" className="logo" />
-      <h4>Covid Statistic of India</h4>
+      <h4>Covid Statistics of India</h4>
       <Cards data={data} />
       {/* </div> */}
     </div>
