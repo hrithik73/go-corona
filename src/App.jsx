@@ -17,11 +17,9 @@ const App = () => {
   return (
     <div className="container">
       <NavbarComponent />
-      {/* <div> */}
       <img src={logo} alt="logo" className="logo" />
       <h4>Covid Statistics of India</h4>
       <Cards data={data} />
-      {/* </div> */}
     </div>
   )
 }
