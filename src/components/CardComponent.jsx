@@ -1,11 +1,7 @@
 import React from 'react';
-// import { makeStyles } from '@material-ui/core/styles';
 import { CardContent, Typography } from '@material-ui/core';
 import CountUp from 'react-countup';
 
-// const useStyles = makeStyles({
-
-// });
 
 const CardComponent = ({
     data,
@@ -13,9 +9,7 @@ const CardComponent = ({
     value = data.confirmed.value,
 }) => {
 
-    // const classes = useStyles();
     return (
-        // <Card className={classes.root} >
         <CardContent>
             <Typography color="textSecondary" variant="h7" >
                 {text}
@@ -44,7 +38,6 @@ const CardComponent = ({
             </Typography>
 
         </CardContent>
-        // </Card>
     );
 }
 

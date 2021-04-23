@@ -1,17 +1,14 @@
-import React from 'react';
+import React from "react"
 
-import './App.css'
-import Cards from './components/Cards';
-import logo from './assets/logo.png'
-import { useFetch } from './apis/useFetch';
-
+import "./App.css"
+import Cards from "./components/Cards"
+import logo from "./assets/logo.png"
+import { useFetch } from "./apis/useFetch"
+import NavbarComponent from "./components/Navbar"
 
 const App = () => {
-
   const url = "https://covid19.mathdro.id/api/countries/india"
   const { data, loading } = useFetch(url)
-
-  console.log(data)
 
   if (loading) {
     return null
@@ -19,11 +16,14 @@ const App = () => {
 
   return (
     <div className="container">
+      <NavbarComponent />
+      {/* <div> */}
       <img src={logo} alt="logo" className="logo" />
       <h4>Covid Statistic of India</h4>
       <Cards data={data} />
+      {/* </div> */}
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

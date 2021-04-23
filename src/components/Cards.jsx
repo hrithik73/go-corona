@@ -8,13 +8,13 @@ import styles from "./Cards.module.css"
 
 
 const Cards = ({ data }) => {
-    // const classes = useStyles()
 
     const active = data.confirmed.value - data.recovered.value - data.deaths.value;
 
     return (
         <div className={styles.container} >
-            <Grid container className={styles.card} spacing={3} justify="center"  >
+            <Grid container className={styles.card} spacing={4} justify="center"   alignItems="center"
+  >
                 <Grid xs={12}
                     md={2} item className={styles.death} >
                     <CardComponent

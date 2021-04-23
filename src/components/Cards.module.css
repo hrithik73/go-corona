@@ -1,11 +1,11 @@
-.container{
+.container {
   margin: 50px 0px;
 }
 
-.card{
-  margin: 0 2%
+.card {
+  margin: 0 2%;
 }
-.death{
-    background-color:#DD1155 ;
-  border-bottom: 10px solid rgba(0, 0, 255, 0.5);
+.death {
+  background-color: #f0f0f0;
+  border-bottom: 10px solid #ffff;
 }
