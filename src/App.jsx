@@ -10,6 +10,8 @@ const App = () => {
   const url = "https://covid19.mathdro.id/api/countries/india"
   const { data, loading } = useFetch(url)
 
+  console.log(data)
+
   if (loading) {
     return null
   }
