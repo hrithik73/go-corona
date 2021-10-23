@@ -1,11 +1,22 @@
 .container {
-  margin: 50px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.card {
-  margin: 0 2%;
-}
 .death {
   background-color: #f0f0f0;
   border-bottom: 10px solid #ffff;
+}
+.active {
+  background-color: #ffcaca;
+  border-bottom: 10px solid #aa3939;
+}
+.recoverd {
+  background-color: #19bb7a;
+  border-bottom: 10px solid #045600;
+}
+.confirmed {
+  background-color: #387dcf;
+  border-bottom: 10px solid #153f72;
 }

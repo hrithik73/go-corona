@@ -1,5 +1,4 @@
 import React from "react"
-
 import "./App.css"
 import Cards from "./components/Cards"
 import logo from "./assets/logo.png"
@@ -7,10 +6,10 @@ import { useFetch } from "./apis/useFetch"
 import NavbarComponent from "./components/Navbar"
 
 const App = () => {
-  const url = "https://covid19.mathdro.id/api/countries/india"
+  const url = "https://corona.lmao.ninja/v2/countries/india"
   const { data, loading } = useFetch(url)
 
-  console.log(data)
+  // console.log(data)
 
   if (loading) {
     return null
