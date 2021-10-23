@@ -4,20 +4,18 @@
 A React App to get the statistic of novel coronavirus also known as COVID-19 in most boring way.
 
 ## Live Demo 
-[https://go-covid19.netlify.app/](https://go-covid19.netlify.app/)
+[https://go-corona.vercel.app/](https://go-corona.vercel.app/)
 
  ## 🛠️ Built with
 
 - [React](https://es.reactjs.org/) - Front-End JavaScript library
 - [Material UI](https://material-ui.com/) - React UI Framework<!-- - [react-chartjs-2](https://github.com/jerairrest/react-chartjs-2) - HTML5 Charts -->
-
-- [Axios](https://github.com/axios/axios) - Promise based HTTP client
 - [React CountUp](https://react-countup.now.sh/) - React component wrapper around CountUp.js
 <!-- - [Classnames](https://jedwatson.github.io/classnames/) - Conditionally joining classNames together -->
 
 ## API USED
 
-I have used this awesome API [mathdroid/covid-19-api](https://github.com/mathdroid/covid-19-api) 
+I have used this awesome API [https://corona.lmao.ninja/v2/countries/india](https://corona.lmao.ninja/v2/countries/india) 
 
 
 ## Running on Local Machine
